@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>heroes form</title>
+  </head>
+  <body>
+    <h1 class="header">Heroes form</h1>
+    <form>
+      <div class="group">
+        <lable for="name">name</lable>
+        <input type="text" name="name" id="name" placeholder="enter name" />
+      </div>
+      <div class="group">
+        <label for="realname">real name</label>
+        <input
+          type="text"
+          name="realname"
+          id="realname"
+          placeholder="enter real name"
+        />
+      </div>
+      <div class="group">
+        <label for="shortbio">short bio</label>
+        <textarea class="shorts"
+          name="shortbio"
+          id="shortbio"
+          placeholder="enter a short bio about hero"
+        ></textarea>
+      </div>
+      <div class="group">
+        <label for="longbio">long bio</label>
+        <textarea class="longs"
+          name="longbio"
+          id="longbio"
+          placeholder="long bio about hero story"
+        ></textarea>
+      </div>
+
+      <button type="submit" name="submit" id="submit">submit</button>
+    </form>
+  </body>
+</html>
